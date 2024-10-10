@@ -2,13 +2,22 @@
 
 /* Set custom variables here */
 
-
-
-
-
 .navbar-brand {
   color: #F6F3ED;
+  
 }
+.navbar {
+  background-color:  #2e483a;
+}
+
+.nav-link {
+  color: #F6F3ED;
+}
+
+.hero-btn {
+  background-color:  #2e483a;
+}
+
 
 body {
   font-family: "Sarala", sans-serif;

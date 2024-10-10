@@ -3,27 +3,52 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Midterm Assignment</title>
-    <!-- Include Bootstrap JS cdn link -->
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/main.css">
   </head>
+
   <body>
 
     <header>
-      
+      <nav class="navbar navbar-expand-md">
+        <div class="container">
+          <a class="navbar-brand" href="#"> <img src="images/daily-dish-logo.svg" alt="daily-dish-logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Menu Plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">How it Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
     </header>
 
 
     <main>
 
       <section id="hero">
-        <div> 
-          <div>
-            <div>
+        <div class="container"> 
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="text-center">
               <h1>Healthy, Delicious Meals Delivered to Your Door – Ready in Minutes!</h1>
               <p>With Daily Dish, you can enjoy chef-crafted, wholesome meals without the hassle of meal prep, grocery shopping, or cleanup.</p>
-              <button>Get Started Today and Save Time!</button>
+              <button type="button" class="btn hero-btn text-white">Get Started Today and Save Time!</button>
             </div>
           </div>
         </div>
@@ -175,6 +200,8 @@
       </section>
 
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 
     
