@@ -85,3 +85,7 @@ section:not(#hero):not(#cta){
     padding: 100px 0;
   }
 }
+
+.ways-to-eat {
+  border-top: #2e483a;
+}
