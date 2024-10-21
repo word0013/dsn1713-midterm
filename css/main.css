@@ -2,11 +2,6 @@
 
 /* Set custom variables here */
 
-/* .navbar-brand {
-  color: #F6F3ED;
-  
-} */
-
 :root {
 
   --bs-primary:#2e483a;
@@ -15,6 +10,10 @@
 }
 .navbar {
   background-color: var(--primary);
+}
+
+.row {
+  --bs-gutter-x: 0;
 }
 
 .nav-link {
@@ -86,5 +85,6 @@ section:not(#hero):not(#cta){
 }
 
 .ways-to-eat {
-  border-top: #2e483a;
+  border-top-style: solid;
+  border-color: #2e483a;
 }
