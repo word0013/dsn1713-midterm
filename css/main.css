@@ -3,10 +3,14 @@
 /* Set custom variables here */
 
 :root {
-
+  
   --bs-primary:#2e483a;
   --bs-primary-rgb:46, 72, 58;
-  
+  --light: #f6f3ed;
+  --light:246, 243, 237;
+  --bs-body-bg: #F6F3ED;
+  --bs-body-bg:246, 243, 237;
+ 
 }
 .navbar {
   background-color: var(--primary);
